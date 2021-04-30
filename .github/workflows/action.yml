@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: A Tip (${{env.REPORT_DATE}})
-          body: file://./tips.html
+          html_body: file://./tips.html
           to: haorongzhi@inspur.com
           from: Your GirlFriend
             # content_type: text/html    
